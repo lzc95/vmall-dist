@@ -1,0 +1,47 @@
+.main {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    flex: 9.8;
+    height:auto;
+    margin-bottom: 100px;
+    background-color:#F3F6F9;
+    width:calc(100% - 90px);
+    width:-moz-calc(100% - 90px);
+    width:-webkit-calc(100% - 90px);
+    position: absolute;
+    left: 90px;
+    top:50px;
+  }
+  .main > ul{
+      width:95%;
+      margin: 0 auto;
+  }
+  .main ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  .main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .main > ul li {
+    background-color:#fff;
+    float: left;
+    width: 33.333333%;
+    height:100px;
+    text-align: center;
+  }
+
+  .title-logo{
+    width: 95%;
+    height:100px;
+    margin: 15px auto 10px;
+    background: #ccc;
+  }
+  .main > ul li img{
+    width:80%;
+    height:80px;
+
+  }
+
