@@ -45,7 +45,7 @@ class TabBarMenu extends React.Component {
   render() {
     return (
       <div style={this.state.fullScreen ? { position: 'fixed', height: '100%', width: '100%', top: 0 } : { height: 400 }}
-        style={{position:'fixed',zIndex:1,left:0,bottom:0,width:'100%'}}
+        style={{position:'fixed',zIndex:100,left:0,bottom:0,width:'100%'}}
       >
         <TabBar
           unselectedTintColor="#949494"
